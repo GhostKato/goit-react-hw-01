@@ -7,9 +7,9 @@ import friends from './components/friendlist/friends.json';
 
 import './App.css';
 
-export function App() {
+const App = () => {
   return (
-    <div className="app">
+    <>
       <Profile
         avatar={userData.avatar}
         username={userData.username}
@@ -18,15 +18,10 @@ export function App() {
         followers={userData.stats.followers}
         views={userData.stats.views}
         likes={userData.stats.likes}
-      />      
-    </div>
+      />  
+      <FriendList friends={friends} />
+    </>
   );
 }
 
-export function App2() {
-  return (
-    <div className="app">
-      <FriendList friends={friends} />
-    </div>
-  );
-}
+export default App;

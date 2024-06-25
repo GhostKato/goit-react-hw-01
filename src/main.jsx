@@ -1,12 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import "modern-normalize";
-import { App, App2 } from './App';
+import  App from './App';
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
-     <App2 />
+    <App />    
   </React.StrictMode>,
 )
