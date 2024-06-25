@@ -1,9 +1,9 @@
 import React from 'react';
-import './TransactionHistory.module.css';
+import styles from './TransactionHistory.module.css';
 
 const TransactionHistory = ({ items }) => {
   return (
-    <table>
+    <table className={styles['table']}>
       <thead>
         <tr>
           <th>Type</th>
