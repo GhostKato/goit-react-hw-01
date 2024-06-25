@@ -1,3 +1,17 @@
-.friendList {
+.friend-list {
   display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 30px;
+}
+
+.friend-item {
+  border: 2px solid black;
+  border-radius: 12px;
+  width: 132px;
+  height: 216px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }

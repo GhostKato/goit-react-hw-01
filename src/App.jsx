@@ -9,7 +9,7 @@ import './App.css';
 
 export function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Profile
         avatar={userData.avatar}
         username={userData.username}
@@ -25,7 +25,7 @@ export function App() {
 
 export function App2() {
   return (
-    <div className="App">
+    <div className="app">
       <FriendList friends={friends} />
     </div>
   );

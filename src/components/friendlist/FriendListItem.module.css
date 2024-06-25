@@ -1,0 +1,14 @@
+.friend-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.friend-img {
+  width: 90px;
+}
+
+.friend-name {
+  font-size: 20px;
+  font-weight: 600;
+}

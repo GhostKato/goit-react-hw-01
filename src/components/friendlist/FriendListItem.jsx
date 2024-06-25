@@ -8,9 +8,9 @@ const FriendListItem = ({ avatar, name, isOnline }) => {
   };
 
   return (
-    <div className="friend-list-item">
-      <img src={avatar} alt="Avatar" width="100" />
-      <p>{name}</p>
+    <div className={styles['friend-item']}>
+      <img className={styles['friend-img']} src={avatar} alt="Avatar" width="100" />
+      <p className={styles['friend-name']}>{name}</p>
       <p style={statusStyle}>
         {isOnline ? 'Online' : 'Offline'}
       </p>
