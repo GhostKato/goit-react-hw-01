@@ -1,11 +1,11 @@
-.friend-list {
+.list {
   display: flex;
   justify-content: center;
   gap: 10px;
   padding-top: 30px;
 }
 
-.friend-item {
+.item {
   border: 2px solid black;
   border-radius: 12px;
   width: 132px;
