@@ -32,3 +32,5 @@ const Profile = ({ avatar, username, tag, location, followers, views, likes }) =
 );
 
 export default Profile;
+
+
